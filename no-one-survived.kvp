@@ -1,5 +1,5 @@
 App.AdminLoginTransform=None
-App.AdminMethod=PinballWizard
+App.AdminMethod=STDIO
 App.AdminPortRef=RemoteAdminPort
 App.AppSettings=
 App.ApplicationIPBinding=0.0.0.0
