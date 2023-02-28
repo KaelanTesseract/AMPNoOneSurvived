@@ -1,6 +1,6 @@
 App.AdminMethod=STDIO
-App.ApplicationPort1=7777
-App.ApplicationPort2=27015
+App.ApplicationPort1=7780
+App.ApplicationPort2=27018
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./no-one-survivied/2329680/
 App.CommandLineArgs=+ip {{$ApplicationIPBinding}} +port {{$ApplicationPort1}} +queryport {{$ApplicationPort2}} +rconpassword "{{$RemoteAdminPassword}}" +maxusers {{$MaxUsers}} {{$FormattedArgs}}
@@ -30,6 +30,6 @@ Meta.ConfigRoot=no-one-survivied.kvp
 Meta.Description=No one survived dedicated Server
 Meta.DisplayImageSource=steam:1963370
 Meta.DisplayName=No one Survivied
-Meta.EndpointURIFormat=
+Meta.EndpointURIFormat=steam://connect/{ip}/{GenericModule.App.ApplicationPort2}
 Meta.OS=1
 Meta.URL=https://store.steampowered.com/app/1963370/No_One_Survived/
